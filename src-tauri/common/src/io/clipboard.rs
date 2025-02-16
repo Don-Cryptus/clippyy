@@ -47,6 +47,9 @@ fn truncate_text(text: &str, max_length: usize) -> String {
     if text.len() <= max_length {
         text.to_string()
     } else {
-        format!("{}", &text[..max_length])
+        text.char_indices()
+            .take_while(|(i, _)| *i < max_length)
+            .map(|(_, c)| c)
+            .collect()
     }
 }

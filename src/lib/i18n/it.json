@@ -126,7 +126,7 @@
 			"ENCRYPTION_PROGRESS_LOCAL": "{{current}} / {{total}} appunti sono criptati localmente",
 			"INFO": "Tutti gli appunti sono criptati, se la password viene persa non è possibile ripristinarli",
 			"PASSWORD": "Password",
-			"SAVE_BEFORE_UNLOCK": "Salvare gli appunti prima che venga inserito il PIN all'avvio?"
+			"SAVE_BEFORE_UNLOCK": "Vuoi salvare gli appunti prima che venga inserito il PIN all'avvio?"
 		},
 		"GENERAL": {
 			"CHANGE_LANGUAGE": "Cambia lingua UI",
@@ -163,13 +163,13 @@
 		},
 		"PATTERNS": {
 			"ACTIONS": "Azioni",
-			"ADD": "Aggiungere",
-			"CHANGE_YOUR_TEXT_MATCHES": "Cambia le corrispondenze del testo",
-			"ENABLED": "Abilitato",
-			"INFO": "Rimuovi i dati sensibili dagli appunti, definisci il modello glob o regex e verranno sostituiti con la sostituzione (lascia vuoto per vuoto)",
-			"MATCH_EXPRESSION": "Espressione di corrispondenza",
-			"REMOVE": "Rimuovere",
-			"SUBSTITUTION": "Sostituzione"
+			"ADD": "Aggiungi",
+			"CHANGE_YOUR_TEXT_MATCHES": "Modifica corrispondenze del testo",
+			"ENABLED": "Abilitata",
+			"INFO": "Rimuovi i dati sensibili dagli appunti, definisci il modello glob o regex e verranno sostituiti tramite sostituzione (lascia vuoto per nessuna azione)",
+			"MATCH_EXPRESSION": "Espressione corrispondenza",
+			"REMOVE": "Rimuovi",
+			"SUBSTITUTION": "Sostituisci"
 		},
 		"SETTINGS": "Impostazioni",
 		"TAB": {
